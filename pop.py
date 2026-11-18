@@ -1,0 +1,5 @@
+a=list(map(int,input().split()))
+index=int(input())
+r=a.pop(index)
+print(r)
+print(a)
